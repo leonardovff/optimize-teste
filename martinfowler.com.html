@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0025)https://martinfowler.com/ -->
+<html>
+<head>
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZZCRQF');</script>
+<!-- End Google Tag Manager -->      
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="uft-8" name="charset">
+
+<title>martinfowler.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="summary" name="twitter:card">
+
+<meta content="16665197" name="twitter:site:id">
+
+<meta content="@martinfowler" name="twitter:site">
+
+<meta content="martinfowler.com" property="og:title">
+
+<meta content="https://martinfowler.com/" property="og:url">
+
+<meta content="A website on building software effectively" property="og:description">
+
+<meta content="https://martinfowler.com/logo-sq.png" property="og:image">
+
+<meta content="martinfowler.com" property="og:site_name">
+
+<meta content="article" property="og:type">
+
+<meta content="@martinfowler" name="twitter:creator">
+
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<link href="./martinfowler.com_files/home.css" rel="stylesheet" type="text/css">
+</head>
+
+<body><header id="banner" style="background-image: url(&quot;/banner.png&quot;); background-repeat: no-repeat">
+
+<div class="name-logo"><a href="https://martinfowler.com/"><img src="./martinfowler.com_files/mf-name-white.png"></a></div>
+  <div class="search">
+    <!-- SiteSearch Google -->
+    <form method="GET" action="https://www.google.com/search">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input type="hidden" name="oe" value="UTF-8">
+      <input class="field" type="text" name="q" size="15" maxlength="255" value="">
+      <button class="button" type="submit" name="btnG" value=" " title="Search">
+      <input type="hidden" name="domains" value="martinfowler.com">
+      <input type="hidden" name="sitesearch" value=""> 
+      <input type="hidden" name="sitesearch" value="martinfowler.com">
+    
+  </button></form></div>
+
+<div class="menu-button navmenu-button"><a class="icon icon-bars" href="https://martinfowler.com/#navmenu-bottom"></a></div>
+
+<nav class="top-menu">
+<ul>
+<li><a class="" href="https://refactoring.com/">Refactoring</a></li>
+
+<li><a class="" href="https://martinfowler.com/agile.html">Agile</a></li>
+
+<li><a class="" href="https://martinfowler.com/architecture">Architecture</a></li>
+
+<li><a class="" href="https://martinfowler.com/aboutMe.html">About</a></li>
+
+<li><a class="tw" href="https://www.thoughtworks.com/">Thoughtworks</a></li>
+
+<li><a class="icon icon-rss" href="https://martinfowler.com/feed.atom" title="feed"></a></li>
+
+<li><a class="icon icon-twitter" href="https://www.twitter.com/martinfowler" title="twitter stream"></a></li>
+</ul>
+</nav>
+</header>
+<nav id="top-navmenu">
+<nav class="navmenu">
+<div class="nav-head">  <div class="search">
+    <!-- SiteSearch Google -->
+    <form method="GET" action="https://www.google.com/search">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input type="hidden" name="oe" value="UTF-8">
+      <input class="field" type="text" name="q" size="15" maxlength="255" value="">
+      <button class="button" type="submit" name="btnG" value=" " title="Search">
+      <input type="hidden" name="domains" value="martinfowler.com">
+      <input type="hidden" name="sitesearch" value=""> 
+      <input type="hidden" name="sitesearch" value="martinfowler.com">
+    
+  </button></form></div>
+
+<div class="closediv">
+<span class="close" title="close"></span>
+</div>
+</div>
+
+<div class="nav-body">
+<div class="topics">
+<h2>Topics</h2>
+
+<p><a href="https://martinfowler.com/architecture">Architecture</a></p>
+
+<p><a href="https://refactoring.com/">Refactoring</a></p>
+
+<p><a href="https://martinfowler.com/agile.html">Agile</a></p>
+
+<p><a href="https://martinfowler.com/delivery.html">Delivery</a></p>
+
+<p><a href="https://martinfowler.com/microservices">Microservices</a></p>
+
+<p><a href="https://martinfowler.com/data">Data</a></p>
+
+<p><a href="https://martinfowler.com/testing">Testing</a></p>
+
+<p><a href="https://martinfowler.com/dsl.html">DSL</a></p>
+</div>
+
+<div class="about">
+<h2>about me</h2>
+
+<p><a href="https://martinfowler.com/aboutMe.html">About</a></p>
+
+<p><a href="https://martinfowler.com/books">Books</a></p>
+
+<p><a href="https://martinfowler.com/faq.html">FAQ</a></p>
+</div>
+
+<div class="content">
+<h2>content</h2>
+
+<p><a href="https://martinfowler.com/videos.html">Videos</a></p>
+
+<p><a href="https://martinfowler.com/tags">Content Index</a></p>
+
+<p><a href="https://martinfowler.com/articles/eurogames">Board Games</a></p>
+
+<p><a href="https://martinfowler.com/photos">Photography</a></p>
+</div>
+
+<div class="tw">
+<h2>Thoughtworks</h2>
+
+<p><a href="https://thoughtworks.com/insights">Insights</a></p>
+
+<p><a href="https://thoughtworks.com/careers">Careers</a></p>
+
+<p><a href="https://thoughtworks.com/products">Products</a></p>
+</div>
+
+<div class="feeds">
+<h2>follow</h2>
+
+<p><a href="https://www.twitter.com/martinfowler">Twitter</a></p>
+
+<p><a href="https://martinfowler.com/feed.atom">RSS</a></p>
+</div>
+</div>
+</nav>
+</nav>
+
+<main>
+<section class="row top">
+<section class="intro">
+<p>Software development is a young profession, and we are still learning the
+      techniques and building the tools to do it effectively. I've been involved
+      in this activity for over three decades and in the last two I've been
+      writing on this website about patterns and practices that make it easier to build useful
+      software. The site began as a place to put my own writing, but
+      I also use it to publish articles by my colleagues.</p>
+
+<p>In 2000, I joined <a class="highlight" href="https://thoughtworks.com/">Thoughtworks</a>, where my role
+      is to learn about the techniques that we've learned to deliver software
+      for our clients, and pass these techniques on to the wider software
+      industry. As this site has developed into a respected platform on software
+      development, I've edited and published articles by my colleagues, both ThoughtWorkers
+      and others, to help useful writing reach a wider audience.</p>
+</section>
+
+<section class="photo">
+<p class="image"><img alt="photo of Martin Fowler" src="./martinfowler.com_files/mf-dallas.jpg"></p>
+
+<p class="credit">photo: Christopher Ferguson</p>
+
+<p class="mf-name">Martin Fowler</p>
+</section>
+</section>
+
+<section class="row center">
+<section class="center-main">
+<section class="main-narrative" id="AWebsiteOnBuildingSoftwareEffectively">
+<h1>A website on building software effectively</h1>
+
+<p>If there's a theme that runs through my work and writing on this site,
+        it's the interplay between the shift towards agile thinking and the
+        technical patterns and practices that make agile software development
+        practical. While specifics of technology change rapidly in our
+        profession, fundamental practices and patterns are more stable. So
+        writing about these allows me to have articles on this site that are
+        several years old but still as relevant as when they were written.</p>
+
+<p>As software becomes more critical to modern business, software needs to
+        be able to react quickly to changes, allowing new features to be be
+        conceived, developed and put into production rapidly. The techniques of
+        <a class="highlight" href="https://martinfowler.com/agile.html">agile software development</a> began in the 1990s
+        and became steadily more popular in the last decade. They focus on a
+        flexible approach to planning, which allows software products to change
+        direction as the users' needs change and as product managers learn more
+        about how to make their users effective. While widely accepted now, agile
+        approaches are not easy, requiring significant skills for a team, but more
+        importantly a culture of open collaboration both within the team and with a
+        team's partners.</p>
+
+<p>This need to respond fluently to changes has an important impact upon
+        the <a class="highlight" href="https://martinfowler.com/architecture">architecture</a> of a software system. The
+        software needs to be built in such a way that it is able to adapt to
+        unexpected changes in features. One of the most important ways to do this
+        is to write clear code, making it easy to understand what the program
+        is supposed to do. This code should be divided into modules which allow
+        developers to understand only the parts of the system they need to make a
+        change. This production code should be supported with automated tests that
+        can detect any errors made when making a change while providing examples
+        of how internal structures are used. Large and complex software efforts
+        may find the <a class="highlight" href="https://martinfowler.com/microservices">microservices</a> architectural style
+        helps teams deploy software with less entangling dependencies.</p>
+
+<p>Creating software that has a good architecture isn't something that can
+        be done first time. Like good prose, it needs regular revisions and
+        programmers learn more about what the product needs to do and how best to
+        design the product to achieve its goals. <a class="highlight" href="https://refactoring.com/">Refactoring</a> is an essential technique to allow a
+        program to be changed safely. It consists of making small changes that
+        don't alter the observable behavior of the software. By combining lots of
+        small changes, developers can revise the software's structure supporting
+        significant modifications that weren't planned when the system was first
+        conceived.</p>
+
+<p>Software that runs only on a developer's machine isn't providing
+        value to the customers of the software. Traditionally releasing software
+        has been a long and complicated process, one that hinders the need to
+        evolve software quickly. <a class="highlight" href="https://martinfowler.com/delivery.html">Continuous Delivery</a> uses
+        automation and collaborative workflows to remove this bottleneck,
+        allowing teams to release software as often as the customers demand. 
+        For Continuous Delivery to be possible, we need to build in a solid
+        foundation of <a class="highlight" href="https://martinfowler.com/testing">Testing</a>, with a range of
+        automated tests that can give us confidence that our changes haven't
+        introduced any bugs. This leads us to integrate testing into
+        programming, which can act to improve our architecture.</p>
+</section>
+
+<section class="card-box topics">
+<section class="photostream article-card" id="Photostream">
+<h2>Photostream</h2>
+
+<p><a href="https://martinfowler.com/photos/126.html"><img src="./martinfowler.com_files/126.jpg"></a></p>
+
+<p>Bacharach, Rhineland-Palatinate, Germany (2016)</p>
+</section>
+
+<section class="data article-card" id="DataManagement">
+<h2>Data Management</h2>
+
+<p>There are many kinds of software out there, the kind I'm primarily
+          engaged is Enterprise Applications. One of the enduring problems we
+          need to tackle in this world is <a class="highlight" href="https://martinfowler.com/data">data management</a>. The aspects of data
+          managment I've focused on here are how to migrate data stores as their
+          applications respond to changing needs, coping with different contexts
+          across a large enterprise, the role of NoSQL databases, and the
+          broader issues of coping with data that is both Big and Messy.</p>
+</section>
+
+<section class="dsl article-card" id="Domain-specificLanguages">
+<h2>Domain-Specific Languages</h2>
+
+<p>A common problem in complex software systems is how to capture
+          complicated domain logic in a way that programmers can both easily
+          manipulate and also easily communicate to domain experts. <a class="highlight" href="https://martinfowler.com/dsl.html">Domain-Specific Languages</a> (DSLs) create a custom language
+          for a particular problem, either with custom parsers or by conventions
+          within a host language.</p>
+</section>
+
+<section class="books article-card" id="Books">
+<h2>Books</h2>
+
+<p>I've written seven books on software development, including
+          Refactoring, Patterns of Enterprise Application Architecture, and UML
+          Distilled. I'm also the editor of a signature series for
+          Addison-Wesley that includes five jolt award winners.</p>
+
+<p class="more"><a href="https://martinfowler.com/books">My Books Page...</a></p>
+</section>
+
+<section class="talks article-card" id="ConferenceTalks">
+<h2>Conference Talks</h2>
+
+<section class="picture">
+<p class="img-link"><img src="./martinfowler.com_files/oscon.png">
+</p><p class="caption"></p>
+<p></p>
+</section>
+
+<p>I'm often asked to give talks at conferences, from which I've
+          inferred that I'm a pretty good speaker - which is ironic since I
+          really hate giving talks. You can form your own opinion of my talks by
+          watching videos of some my conference talks.</p>
+
+<p class="more"><a href="https://martinfowler.com/videos.html">My Videos Page...</a></p>
+</section>
+
+<section class="games article-card" id="BoardGames">
+<h2>Board Games</h2>
+
+<section class="picture">
+<p class="img-link"><img src="./martinfowler.com_files/board-games.png">
+</p><p class="caption"></p>
+<p></p>
+</section>
+
+<p>I've long been a fan of board games, I enjoy a
+           game that fully occupies my mind, clearing out all the serious
+          thoughts for a bit, while enjoying the company of good friends. Modern
+          board games saw dramatic improvement in the 1990's with the rise of
+          Eurogames, and I expect many people would be surprised if they haven't
+          tried any of this new generation. I also appear regularly on <a href="https://martinfowler.com/bliki/HeavyCardboard.html">Heavy Cardboard</a>.</p>
+
+<p class="more"><a href="https://martinfowler.com/articles/eurogames/">My Board Games page...</a></p>
+</section>
+</section>
+
+<section class="tags" id="Tags">
+<h2>Tags</h2>
+
+<p><a href="https://martinfowler.com/tags/API%20design.html">API design</a>&nbsp;· <a href="https://martinfowler.com/tags/agile.html">agile</a>&nbsp;· <a href="https://martinfowler.com/tags/agile%20adoption.html">agile adoption</a>&nbsp;· <a href="https://martinfowler.com/tags/analysis%20patterns.html">analysis patterns</a>&nbsp;· <a href="https://martinfowler.com/tags/application%20architecture.html">application architecture</a>&nbsp;· <a href="https://martinfowler.com/tags/application%20integration.html">application integration</a>&nbsp;· <a href="https://martinfowler.com/tags/bad%20things.html">bad things</a>&nbsp;· <a href="https://martinfowler.com/tags/board%20games.html">board games</a>&nbsp;· <a href="https://martinfowler.com/tags/build%20scripting.html">build scripting</a>&nbsp;· <a href="https://martinfowler.com/tags/certification.html">certification</a>&nbsp;· <a href="https://martinfowler.com/tags/collaboration.html">collaboration</a>&nbsp;· <a href="https://martinfowler.com/tags/computer%20history.html">computer history</a>&nbsp;· <a href="https://martinfowler.com/tags/conference%20panels.html">conference panels</a>&nbsp;· <a href="https://martinfowler.com/tags/conferences.html">conferences</a>&nbsp;· <a href="https://martinfowler.com/tags/continuous%20delivery.html">continuous delivery</a>&nbsp;· <a href="https://martinfowler.com/tags/covid-19.html">covid-19</a>&nbsp;· <a href="https://martinfowler.com/tags/data%20analytics.html">data analytics</a>&nbsp;· <a href="https://martinfowler.com/tags/database.html">database</a>&nbsp;· <a href="https://martinfowler.com/tags/design.html">design</a>&nbsp;· <a href="https://martinfowler.com/tags/dictionary.html">dictionary</a>&nbsp;· <a href="https://martinfowler.com/tags/distributed%20computing%20magazine.html">distributed computing magazine</a>&nbsp;· <a href="https://martinfowler.com/tags/diversions.html">diversions</a>&nbsp;· <a href="https://martinfowler.com/tags/diversity.html">diversity</a>&nbsp;· <a href="https://martinfowler.com/tags/documentation.html">documentation</a>&nbsp;· <a href="https://martinfowler.com/tags/domain%20driven%20design.html">domain driven design</a>&nbsp;· <a href="https://martinfowler.com/tags/domain%20specific%20language.html">domain specific language</a>&nbsp;· <a href="https://martinfowler.com/tags/domestic.html">domestic</a>&nbsp;· <a href="https://martinfowler.com/tags/encapsulation.html">encapsulation</a>&nbsp;· <a href="https://martinfowler.com/tags/enterprise%20architecture.html">enterprise architecture</a>&nbsp;· <a href="https://martinfowler.com/tags/estimation.html">estimation</a>&nbsp;· <a href="https://martinfowler.com/tags/event%20architectures.html">event architectures</a>&nbsp;· <a href="https://martinfowler.com/tags/evolutionary%20design.html">evolutionary design</a>&nbsp;· <a href="https://martinfowler.com/tags/experience%20reports.html">experience reports</a>&nbsp;· <a href="https://martinfowler.com/tags/expositional%20architectures.html">expositional architectures</a>&nbsp;· <a href="https://martinfowler.com/tags/extreme%20programming.html">extreme programming</a>&nbsp;· <a href="https://martinfowler.com/tags/front-end.html">front-end</a>&nbsp;· <a href="https://martinfowler.com/tags/gadgets.html">gadgets</a>&nbsp;· <a href="https://martinfowler.com/tags/ieeeSoftware.html">ieeeSoftware</a>&nbsp;· <a href="https://martinfowler.com/tags/infodecks.html">infodecks</a>&nbsp;· <a href="https://martinfowler.com/tags/internet%20culture.html">internet culture</a>&nbsp;· <a href="https://martinfowler.com/tags/interviews.html">interviews</a>&nbsp;· <a href="https://martinfowler.com/tags/language%20feature.html">language feature</a>&nbsp;· <a href="https://martinfowler.com/tags/language%20workbench.html">language workbench</a>&nbsp;· <a href="https://martinfowler.com/tags/lean.html">lean</a>&nbsp;· <a href="https://martinfowler.com/tags/legacy%20rehab.html">legacy rehab</a>&nbsp;· <a href="https://martinfowler.com/tags/legal.html">legal</a>&nbsp;· <a href="https://martinfowler.com/tags/metrics.html">metrics</a>&nbsp;· <a href="https://martinfowler.com/tags/microservices.html">microservices</a>&nbsp;· <a href="https://martinfowler.com/tags/mobile.html">mobile</a>&nbsp;· <a href="https://martinfowler.com/tags/noSQL.html">noSQL</a>&nbsp;· <a href="https://martinfowler.com/tags/object%20collaboration%20design.html">object collaboration design</a>&nbsp;· <a href="https://martinfowler.com/tags/parser%20generators.html">parser generators</a>&nbsp;· <a href="https://martinfowler.com/tags/photography.html">photography</a>&nbsp;· <a href="https://martinfowler.com/tags/podcast.html">podcast</a>&nbsp;· <a href="https://martinfowler.com/tags/popular.html">popular</a>&nbsp;· <a href="https://martinfowler.com/tags/presentation%20technique.html">presentation technique</a>&nbsp;· <a href="https://martinfowler.com/tags/privacy.html">privacy</a>&nbsp;· <a href="https://martinfowler.com/tags/process%20theory.html">process theory</a>&nbsp;· <a href="https://martinfowler.com/tags/productivity.html">productivity</a>&nbsp;· <a href="https://martinfowler.com/tags/programming%20platforms.html">programming platforms</a>&nbsp;· <a href="https://martinfowler.com/tags/programming%20style.html">programming style</a>&nbsp;· <a href="https://martinfowler.com/tags/project%20planning.html">project planning</a>&nbsp;· <a href="https://martinfowler.com/tags/recruiting.html">recruiting</a>&nbsp;· <a href="https://martinfowler.com/tags/refactoring.html">refactoring</a>&nbsp;· <a href="https://martinfowler.com/tags/refactoring%20boundary.html">refactoring boundary</a>&nbsp;· <a href="https://martinfowler.com/tags/requirements%20analysis.html">requirements analysis</a>&nbsp;· <a href="https://martinfowler.com/tags/ruby.html">ruby</a>&nbsp;· <a href="https://martinfowler.com/tags/security.html">security</a>&nbsp;· <a href="https://martinfowler.com/tags/talk%20videos.html">talk videos</a>&nbsp;· <a href="https://martinfowler.com/tags/team%20environment.html">team environment</a>&nbsp;· <a href="https://martinfowler.com/tags/team%20organization.html">team organization</a>&nbsp;· <a href="https://martinfowler.com/tags/technical%20debt.html">technical debt</a>&nbsp;· <a href="https://martinfowler.com/tags/technical%20leadership.html">technical leadership</a>&nbsp;· <a href="https://martinfowler.com/tags/test%20categories.html">test categories</a>&nbsp;· <a href="https://martinfowler.com/tags/testing.html">testing</a>&nbsp;· <a href="https://martinfowler.com/tags/thoughtworks.html">thoughtworks</a>&nbsp;· <a href="https://martinfowler.com/tags/tools.html">tools</a>&nbsp;· <a href="https://martinfowler.com/tags/travel.html">travel</a>&nbsp;· <a href="https://martinfowler.com/tags/uml.html">uml</a>&nbsp;· <a href="https://martinfowler.com/tags/version%20control.html">version control</a>&nbsp;· <a href="https://martinfowler.com/tags/web%20development.html">web development</a>&nbsp;· <a href="https://martinfowler.com/tags/web%20services.html">web services</a>&nbsp;· <a href="https://martinfowler.com/tags/website.html">website</a>&nbsp;· <a href="https://martinfowler.com/tags/writing.html">writing</a></p>
+
+<p><a href="https://martinfowler.com/tags/2021.html">2021</a>&nbsp;· <a href="https://martinfowler.com/tags/2020.html">2020</a>&nbsp;· <a href="https://martinfowler.com/tags/2019.html">2019</a>&nbsp;· <a href="https://martinfowler.com/tags/2018.html">2018</a>&nbsp;· <a href="https://martinfowler.com/tags/2017.html">2017</a>&nbsp;· <a href="https://martinfowler.com/tags/2016.html">2016</a>&nbsp;· <a href="https://martinfowler.com/tags/2015.html">2015</a>&nbsp;· <a href="https://martinfowler.com/tags/2014.html">2014</a>&nbsp;· <a href="https://martinfowler.com/tags/2013.html">2013</a>&nbsp;· <a href="https://martinfowler.com/tags/2012.html">2012</a>&nbsp;· <a href="https://martinfowler.com/tags/2011.html">2011</a>&nbsp;· <a href="https://martinfowler.com/tags/2010.html">2010</a>&nbsp;· <a href="https://martinfowler.com/tags/2009.html">2009</a>&nbsp;· <a href="https://martinfowler.com/tags/2008.html">2008</a>&nbsp;· <a href="https://martinfowler.com/tags/2007.html">2007</a>&nbsp;· <a href="https://martinfowler.com/tags/2006.html">2006</a>&nbsp;· <a href="https://martinfowler.com/tags/2005.html">2005</a>&nbsp;· <a href="https://martinfowler.com/tags/2004.html">2004</a>&nbsp;· <a href="https://martinfowler.com/tags/2003.html">2003</a>&nbsp;· <a href="https://martinfowler.com/tags/2002.html">2002</a>&nbsp;· <a href="https://martinfowler.com/tags/2001.html">2001</a>&nbsp;· <a href="https://martinfowler.com/tags/2000.html">2000</a>&nbsp;· <a href="https://martinfowler.com/tags/1999.html">1999</a>&nbsp;· <a href="https://martinfowler.com/tags/1998.html">1998</a>&nbsp;· <a href="https://martinfowler.com/tags/1997.html">1997</a>&nbsp;· <a href="https://martinfowler.com/tags/1996.html">1996</a></p>
+
+<p><a href="https://martinfowler.com/tags/index.html"><b>All Content</b></a></p>
+</section>
+</section>
+
+<section class="feed">
+<section class="intro" id="RecentChanges">
+<h1>Recent Changes</h1>
+
+<p>If you'd like to be notified when I post new
+        material, subcribe to my <a href="https://martinfowler.com/feed.atom">RSS</a> or <a href="https://www.twitter.com/martinfowler">Twitter</a> feeds.</p>
+</section>
+
+<section class="entries">
+<article class="feed-entry">
+<hr>
+
+<h2><a href="https://martinfowler.com/articles/patterns-legacy-displacement/">Patterns of Legacy Displacement</a></h2>
+
+<p class="datetime">Tue 20 Jul 2021 08:22 EDT</p>
+
+<div class="img"><a href="https://martinfowler.com/articles/patterns-legacy-displacement/"><img src="./martinfowler.com_files/card.png" width=""></a></div>
+
+<p>My colleagues do a lot of work that involves replacing legacy software
+      systems. Three of my colleagues - Ian Cartwright, Rob Horn, and
+      James Lewis - have started to capture their
+      experience and advice for this is a collection of patterns. We begin with an
+      <a href="https://martinfowler.com/articles/patterns-legacy-displacement/">overview article</a> that lays out four main categories of activity that need
+      to be done for a successful legacy displacement.</p>
+
+<p><a class="more" href="https://martinfowler.com/articles/patterns-legacy-displacement/">more…</a></p></article>
+
+<article class="feed-entry">
+<hr>
+
+<h2><a href="https://martinfowler.com/articles/202106-reducing-speaking.html">Stepping Back from Speaking</a></h2>
+
+<p class="datetime">Tue 29 Jun 2021 11:02 EDT</p>
+
+<p>A personal note on why I wish to give up doing talks</p>
+
+<p><a class="more" href="https://martinfowler.com/articles/202106-reducing-speaking.html">more…</a></p></article>
+
+<article class="feed-entry">
+<hr>
+
+<h2><a href="https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html">Gossip Dissemination</a></h2>
+
+<p class="datetime">Thu 17 Jun 2021 10:18 EDT</p>
+
+<div class="img"><a href="https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html"><img src="./martinfowler.com_files/card(1).png" width=""></a></div>
+
+<p>Unmesh Joshi is completing another batch of his series on Patterns of
+      Distributed Systems. First of these is <a href="https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html">Gossip Dissemination</a>, which uses a
+      random selection of nodes to pass on information to ensure it reaches all
+      the nodes in the cluster without flooding the network</p>
+
+<p><a class="more" href="https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html">more…</a></p></article>
+
+<article class="feed-entry">
+<hr>
+
+<h2><a href="https://martinfowler.com/articles/2021-test-shapes.html">On the Diverse And Fantastical Shapes of Testing</a></h2>
+
+<p class="datetime">Wed 02 Jun 2021 11:58 EDT</p>
+
+<p>There are arguments about whether a testing portfolio should be a
+      pyramid or more like honeycomb. My second biggest issue with this argument
+      is that it's rendered opaque by the fact that it's not clear what people
+      see as the difference between unit and integration tests.</p>
+
+<p><a class="more" href="https://martinfowler.com/articles/2021-test-shapes.html">more…</a></p></article>
+
+<article class="feed-entry">
+<hr>
+
+<h2><a href="https://martinfowler.com/articles/platform-prerequisites.html">Mind the platform execution gap</a></h2>
+
+<p class="datetime">Tue 27 Apr 2021 09:51 EDT</p>
+
+<div class="img"><a href="https://martinfowler.com/articles/platform-prerequisites.html"><img src="./martinfowler.com_files/card(2).png" width=""></a></div>
+
+<p>Recently there's been a lot of interest, indeed hype, around building
+      developer productivity platforms. Done well, they make it easier for
+      developers to build systems aligned with the technology strategy and allow
+      them to build useful features more quickly. However many organizations
+      struggle because in order to do a good job of platforms, you need to have
+      a number of baseline capabilities in place first. That way the platform
+      can be designed and operated as if it were a a software product with a
+      demanding public customer-base.</p>
+
+<p><a class="more" href="https://martinfowler.com/articles/platform-prerequisites.html">more…</a></p></article>
+
+<article class="feed-entry">
+<hr>
+
+<h2><a href="https://martinfowler.com/articles/bitemporal-history.html">Bitemporal History</a></h2>
+
+<p class="datetime">Wed 07 Apr 2021 10:00 EDT</p>
+
+<div class="img"><a href="https://martinfowler.com/articles/bitemporal-history.html"><img src="./martinfowler.com_files/card(3).png" width=""></a></div>
+
+<p>It's often necessary to access the historical values of some property.
+      But sometimes this history itself needs to be modified in response to
+      retroactive updates. Bitemporal history treats time as two dimensions:
+      actual history records what history should be given perfect transmission
+      of information, while record history captures how our knowledge of history
+      changes.</p>
+
+<p><a class="more" href="https://martinfowler.com/articles/bitemporal-history.html">more…</a></p></article>
+</section>
+</section>
+</section>
+</main>
+
+<nav id="bottom-navmenu" style="display: none;">
+<nav class="navmenu">
+<div class="nav-head">  <div class="search">
+    <!-- SiteSearch Google -->
+    <form method="GET" action="https://www.google.com/search">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input type="hidden" name="oe" value="UTF-8">
+      <input class="field" type="text" name="q" size="15" maxlength="255" value="">
+      <button class="button" type="submit" name="btnG" value=" " title="Search">
+      <input type="hidden" name="domains" value="martinfowler.com">
+      <input type="hidden" name="sitesearch" value=""> 
+      <input type="hidden" name="sitesearch" value="martinfowler.com">
+    
+  </button></form></div>
+
+<div class="closediv">
+<span class="close" title="close"></span>
+</div>
+</div>
+
+<div class="nav-body">
+<div class="topics">
+<h2>Topics</h2>
+
+<p><a href="https://martinfowler.com/architecture">Architecture</a></p>
+
+<p><a href="https://refactoring.com/">Refactoring</a></p>
+
+<p><a href="https://martinfowler.com/agile.html">Agile</a></p>
+
+<p><a href="https://martinfowler.com/delivery.html">Delivery</a></p>
+
+<p><a href="https://martinfowler.com/microservices">Microservices</a></p>
+
+<p><a href="https://martinfowler.com/data">Data</a></p>
+
+<p><a href="https://martinfowler.com/testing">Testing</a></p>
+
+<p><a href="https://martinfowler.com/dsl.html">DSL</a></p>
+</div>
+
+<div class="about">
+<h2>about me</h2>
+
+<p><a href="https://martinfowler.com/aboutMe.html">About</a></p>
+
+<p><a href="https://martinfowler.com/books">Books</a></p>
+
+<p><a href="https://martinfowler.com/faq.html">FAQ</a></p>
+</div>
+
+<div class="content">
+<h2>content</h2>
+
+<p><a href="https://martinfowler.com/videos.html">Videos</a></p>
+
+<p><a href="https://martinfowler.com/tags">Content Index</a></p>
+
+<p><a href="https://martinfowler.com/articles/eurogames">Board Games</a></p>
+
+<p><a href="https://martinfowler.com/photos">Photography</a></p>
+</div>
+
+<div class="tw">
+<h2>Thoughtworks</h2>
+
+<p><a href="https://thoughtworks.com/insights">Insights</a></p>
+
+<p><a href="https://thoughtworks.com/careers">Careers</a></p>
+
+<p><a href="https://thoughtworks.com/products">Products</a></p>
+</div>
+
+<div class="feeds">
+<h2>follow</h2>
+
+<p><a href="https://www.twitter.com/martinfowler">Twitter</a></p>
+
+<p><a href="https://martinfowler.com/feed.atom">RSS</a></p>
+</div>
+</div>
+</nav>
+</nav>
+<footer id="page-footer">
+<div class="tw-logo">
+<a href="http://www.thoughtworks.com/">
+<img src="./martinfowler.com_files/thoughtworks_white.png">
+</a>
+</div>
+<div class="menu-button">
+<div class="icon-bars navmenu-button"></div>
+</div>
+<div class="copyright">
+<p>© Martin Fowler | <a href="http://www.thoughtworks.com/privacy-policy">Privacy Policy</a> | <a href="https://martinfowler.com/aboutMe.html#disclosures">Disclosures</a></p>
+</div>
+</footer>
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-17005812-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async="" src="./martinfowler.com_files/analytics.js"></script>
+<!-- End Google Analytics -->
+
+
+
+<script src="./martinfowler.com_files/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+<script src="./martinfowler.com_files/mfcom.js" type="text/javascript"></script>
+
+<script type="text/javascript">encloseWhenSmall('.article-card', 'h3');
+</script>
+
+
+</body></html>
